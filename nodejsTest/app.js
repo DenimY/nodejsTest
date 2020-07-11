@@ -27,6 +27,7 @@ db.once('open', () => {
 const PersonSchema = mongoose.Schema({
     name: String,
     age: Number
+
 });
 
 const Person = mongoose.model('person', PersonSchema);
